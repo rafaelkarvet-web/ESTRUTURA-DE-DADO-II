@@ -51,6 +51,7 @@ Considere:
 
 `E = {(1,2), (1,4), (1,5), (2,3), (3,4), (4,4)}`
 
+
 ### Faça
 
 1.  Desenhe o grafo.
@@ -60,7 +61,7 @@ Considere:
 5.  Determine o tamanho `|E|`.
 6.  Identifique se existe laço.
 7.  Determine o grau de cada vértice.
-
+<img width="385" height="397" alt="Captura de tela 2026-10-09 202914" src="https://github.com/user-attachments/assets/fc65b74f-520b-4350-8f6b-a38dce1d4a85" />
 > **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
 > contado duas vezes.
 
