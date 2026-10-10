@@ -61,7 +61,9 @@ Considere:
 5.  Determine o tamanho `|E|`.
 6.  Identifique se existe laço.
 7.  Determine o grau de cada vértice.
+-------------------------------------------------------------------------------------------
 <img width="385" height="397" alt="Captura de tela 2026-10-09 202914" src="https://github.com/user-attachments/assets/fc65b74f-520b-4350-8f6b-a38dce1d4a85" />
+-------------------------------------------------------------------------------------------
 > **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
 > contado duas vezes.
 
@@ -91,11 +93,11 @@ Utilize o grafo construído na Atividade 1.
 
   Vértice   Vértices adjacentes   Arestas incidentes
   --------- --------------------- --------------------
-  1                               
-  2                               
-  3                               
-  4                               
-  5                               
+  1                  2,4,5        {1.2},{1.4},{1.5}
+  2                   1,3            {2.1},{2.3}
+  3                   2,4            {3.2},{3.4}
+  4                   1,3,4       {4.1},{4.3},{4.4}  
+  5                   1                 {5.1}
 
 ### Plataformas
 
@@ -115,7 +117,10 @@ Considere quatro pessoas:
 ### Situação
 
 Crie uma pequena rede de amizades entre essas pessoas.
-
+------------------------------------------------------
+<img width="546" height="321" alt="image" src="https://github.com/user-attachments/assets/5fdd28cd-1293-4957-93e9-3b45b73a9175" />
+------------------------------------------------------
+-NÃO DIRECIONAL
 ### Faça
 
 1.  Defina o conjunto de vértices `V`.
@@ -124,6 +129,13 @@ Crie uma pequena rede de amizades entre essas pessoas.
 4.  Informe se o grafo deve ser dirigido ou não dirigido.
 5.  Justifique a escolha.
 6.  Identifique quem possui maior grau no grafo criado.
+     Vértice         Vértices adjacentes         Arestas incidentes             GRAU
+  ---------         ---------------------       --------------------      -----------------
+  JOAO                CAROLINE,MARIA               {J.C},{J.MARIA}               2
+  CAROLINE              JOAO,MARIA                 {C.J},{C.MARIA}               2
+  MARIA             JOAO,CAROLINE,MARCO    {MARIA.J},{MARIA.C},{MARIA.MARCO}     3
+  MARCO                    MARIA                     {MARCO.MARIA}               1
+
 
 ### Questão para reflexão
 
